@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/itTrangChu"
+        android:title="@string/trangchu"
+        android:icon="@drawable/trangchu"
+        android:checked="true">
+
+    </item>
+
+    <item
+        android:id="@+id/itThemThucDon"
+        android:title="@string/thucdon"
+        android:icon="@drawable/menu"
+       >
+
+    </item>
+
+    <item
+        android:title="@string/nhanvien"
+        android:id="@+id/itNhanVien"
+        android:icon="@drawable/nhanvien">
+
+    </item>
+
+    <item
+        android:title="@string/thongke"
+        android:icon="@drawable/thongke">
+
+    </item>
+
+    <item
+        android:title="@string/caidat"
+        android:icon="@drawable/caidat">
+
+    </item>
+
+    </group>
+</menu>

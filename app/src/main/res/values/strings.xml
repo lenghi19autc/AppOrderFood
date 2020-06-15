@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Order Food</string>
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="ngaysinh">Ngày Sinh</string>
+    <string name="chungminhnhandan">Chứng minh nhân dân</string>
+    <string name="sodienthoai">Số điện thoại</string>
+    <string name="dongy">Register</string>
+    <string name="thoat">Back</string>
+    <string name="dangky">Register</string>
+    <string name="loinhaptendangnhap">Vui lòng nhập tên đăng nhập</string>
+    <string name="loinhapmatkhau">Vui lòng nhập mật khẩu</string>
+    <string name="dangkythanhcong">Đăng ký thành công</string>
+    <string name="dangkythatbai">Đăng ký thất bại</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="nameapp">ORDER FOOD</string>
+
+    <string name="trangchu">Trang chủ</string>
+    <string name="thucdon">Thực đơn</string>
+    <string name="nhanvien">Nhân viên</string>
+    <string name="thongke">Thống kê</string>
+    <string name="caidat">Cài đặt</string>
+
+    <string name="mo">Mở</string>
+    <string name="dong" >Đóng</string>
+
+    <string name="thembanan">Thêm bàn ăn</string>
+    <string name="tenbanan">Tên bàn ăn</string>
+    <string name="add">Add</string>
+
+    <string name="themthanhcong">Thêm thành công</string>
+    <string name="themthatbai">Thêm thất bại</string>
+
+    <string name="addmenu">Add Menu</string>
+    <string name="tenmonan">Tên món ăn</string>
+    <string name="giatien">Giá tiền</string>
+    <string name="themthucdon">Thêm thực đơn</string>
+    <string name="banan">Bàn ăn</string>
+    <string name="vuilongnhapdulieu">"Vui lòng nhập dữ liệu"</string>
+    <string name="loithemmonan">Vui lòng nhập đầy đủ dữ liệu </string>
+    <string name="gia">Giá: </string>
+    <string name="themsoluong">Số lượng</string>
+
+    <string name="thanhtoan"> Thanh toán</string>
+    <string name="thoatthanhtoan">Thoát</string>
+    <string name="tongtien">Tổng tiền: </string>
+    <string name="thanhtoanthanhcong">Thanh toán thành công</string>
+    <string name="thanhtoanthatbai">Thanh toán thất bại</string>
+
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="xoathanhcong">Xóa thành công </string>
+    <string name="xoathatbai">Xóa thất bại </string>
+    <string name="suabanan">Sửa bàn ăn</string>
+    <string name="suathanhcong">Sửa thành công</string>
+    <string name="loi">Lỗi</string>
+    <string name="tenloaimonan">Tên loại món ăn</string>
+    <string name="sualoaimonan">Sửa loại món ăn</string>
+    <string name="suamonan">Sửa món ăn</string>
+    <string name="themnhanvien">Thêm nhân viên</string>
+    <string name="capnhattieude">Cập nhật nhân viên</string>
+    <string name="update">Update</string>
+
+</resources>

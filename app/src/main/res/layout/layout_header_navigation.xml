@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundheader"
+    android:layout_height="@dimen/size200dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logoNaviagtion"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/nhanvien">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtTenNhanVien_Navigation"
+        android:layout_below="@+id/logoNaviagtion"
+        android:text="Ten nhan vien"
+        android:textStyle="bold"
+        android:textSize="@dimen/size18sp"
+        android:layout_alignStart="@id/logoNaviagtion"
+        android:layout_alignLeft="@+id/logoNaviagtion"
+        android:layout_marginTop="@dimen/size10dp"
+        android:layout_height="wrap_content"  />
+
+</RelativeLayout>

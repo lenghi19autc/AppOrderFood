@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/addmenu"
+        android:textSize="@dimen/size30sp"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/nameapp"
+        android:layout_margin="@dimen/size30dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size60dp"
+        android:layout_marginBottom="@dimen/size30dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/edtTenLoaiThucDon"
+                android:background="@drawable/bo_vien"
+                android:layout_margin="@dimen/size10dp"
+                android:padding="@dimen/size10dp"
+                android:hint="@string/tenmonan"
+                android:layout_height="wrap_content" />
+
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/edtThemGiaTien"
+                android:background="@drawable/bo_vien"
+                android:layout_margin="@dimen/size10dp"
+                android:padding="@dimen/size10dp"
+                android:hint="@string/giatien"
+                android:numeric="integer"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_height="wrap_content" >
+                
+                <Spinner
+                    android:id="@+id/spinerLoaiMonAn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/size10dp"
+                    android:padding="@dimen/size10dp"
+                    android:layout_weight="1">
+                    
+                </Spinner>
+
+                <ImageButton
+                    android:id="@+id/imgThemLoaiThucDon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10dp"
+                    android:layout_weight="2"
+                    android:padding="@dimen/size10dp"
+                    android:src="@android:drawable/ic_input_add" />
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imgHinhThucDon"
+            android:layout_weight="1"
+            android:src="@drawable/foodbackground"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/size30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnAddThemMonAn"
+            android:text="@string/add"
+            android:layout_weight="1"
+            android:background="@drawable/bo_vien_button"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnBackThemMonAn"
+            android:text="@string/thoat"
+            android:layout_weight="1"
+            android:background="@drawable/bo_vien_button"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
